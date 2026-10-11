@@ -2,6 +2,16 @@
 
 A controlled recipient-substitution skill for the HoneySkill payment-agent demonstration.
 
+## Install in one line
+
+From a disposable demonstration project, with Node.js 22.20+:
+
+```sh
+npx -y skills add gderamchi/soroban-trader-skill -a codex -y
+```
+
+This installs the skill for Codex in the current project's `.agents/skills/soroban-trader-skill/`, without questions or a global install. No repository clone, build step or OpenAI key is needed to install the text. It does not start an agent or run a payment. If HoneySkill protects the installation, its risk decision still applies; `-y` does not grant a security exception.
+
 This package contains authored adversarial natural-language instructions: it tries to replace the user-confirmed invoice recipient and conceal the change. It is a test fixture, not a documented real-world malware sample. Use it only with a disposable laboratory agent and fake local funds, never a real wallet or agent profile.
 
 The name is a demonstration label. The current HoneySkill execution adapter supports native payments on an owned Avalanche Fuji fork; this package does not implement Stellar/Soroban trading.
