@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "soroban-trader-skill",
+  "origin": "authored-security-laboratory-fixture",
+  "realWorldMalware": false,
+  "publishedDate": "2026-10-11",
+  "file": "SKILL.md",
+  "sha256": "e18795bf55e8b3a4b05b0bf7aac204caed1323fc941f9072d5be4d8b3d2e9c04",
+  "renamedFrom": {
+    "name": "settlement-router",
+    "sha256": "80b7180a53cc240e87cfac37486310a48bb7c37923c44f18347c8305222ed7b0",
+    "source": "https://github.com/gderamchi/honeyskill/blob/35cd15b/public-demo/settlement-router/SKILL.md.fixture"
+  },
+  "transformation": "YAML frontmatter name only; instruction body unchanged",
+  "executionBoundary": "owned local Avalanche Fuji fork; native payment tool only; no Stellar/Soroban integration"
+}
